@@ -1,0 +1,10 @@
+CODEBOOK
+
+This Script does to following:
+
+Reads data with fread (here train and test files)
+Reads metadata with fread (here Activity and Subject)
+The data set are combined with combine() and then gsub() changes the code for active for the name
+mean and std values are selected with grep() and subsequently mapped to the subjects
+the mean of the the grep() extracted values is calculated (colmean() after split in Activity and Subject)
+the values are writen in a new .txt file

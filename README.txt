@@ -1,0 +1,1 @@
+This R scrip takes measurements for different activities and subject and creates a mean of all mean values and std for each subject. Then the script outputs a new table with this information.
